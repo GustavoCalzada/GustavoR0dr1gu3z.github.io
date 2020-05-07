@@ -715,12 +715,15 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="" method="post" role="form" class="contactForm">
+
+
+                      <form action="enviar.php" method="post" role="form" class="contactForm">
                       <div id="sendmessage">¡Su mensaje ha sido enviado con éxito!</div>
                       <div id="errormessage">¡Error al enviar el mensaje! </div>
                       <div class="row">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
+                                                                       
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Ingrese al menos 4 carácteres" />
                             <div class="validation"></div>
                           </div>
@@ -744,9 +747,11 @@
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Enviar Mensaje</button>
+                          <input type="submit" class="button button-a button-big button-rouded" value="Enviar Mensaje" id="btn-send">                         
                         </div>
                       </div>
+
+                
                     </form>
                   </div>
                 </div>
