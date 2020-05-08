@@ -18,9 +18,4 @@ $carta .= "Mensaje: $message \n";
 
 //Enviar mensaje
 mail($destinatario, $asunto, $carta);
-
-
-
-
-
 ?>
